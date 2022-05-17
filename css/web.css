@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#logo img {
+    width: 80px;
+    vertical-align: middle;
+    padding-top: 15px;
+}
+
+#logo span {
+    font-size: 15px;
+    display: inline-block;
+    color: #9196AE;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-weight: 600;
+}
+

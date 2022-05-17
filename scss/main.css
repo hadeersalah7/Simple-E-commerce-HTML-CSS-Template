@@ -1,0 +1,430 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-style: none;
+  outline-style: none;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+#logo img {
+  width: 80px;
+  vertical-align: middle;
+  padding-top: 15px;
+}
+
+#logo span {
+  font-size: 15px;
+  display: inline-block;
+  color: #9F9FA4;
+  padding-left: 10px;
+  padding-top: 10px;
+  font-weight: 600;
+}
+
+.left {
+  padding-top: 15px;
+}
+
+.left span {
+  display: inline-block;
+  color: #9F9FA4;
+  font-size: 25px;
+  font-weight: lighter;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.left p {
+  display: inline-block;
+  vertical-align: middle;
+  color: #9F9FA4;
+}
+
+#cart {
+  vertical-align: super;
+  background-color: #000;
+  color: #fff;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+}
+
+#cart button p {
+  overflow: hidden;
+}
+
+.home {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.home ul {
+  list-style-type: none;
+}
+
+.home ul li {
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.home a {
+  text-decoration: none;
+  color: #9F9FA4;
+  font-weight: 600;
+}
+
+.home a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+select option {
+  color: #9F9FA4;
+}
+
+.sec-3 {
+  margin-top: 50px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../img/5bb76b6c73d32b5386b4d97a_banner.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/5bb76b6c73d32b5386b4d97a_banner.jpg");
+  background-size: cover;
+  background-attachment: scroll, fixed;
+}
+
+.sec-3 .temp h1 {
+  text-align: right;
+  font-weight: 300;
+  font-size: 70px;
+  font-family: 'Libre Baskerville', serif;
+  color: #fff;
+  padding-top: 350px;
+  line-height: 1.5;
+}
+
+.sec-3 .get button {
+  text-align: center;
+  background-color: #212127;
+  width: 120px;
+  height: 50px;
+  color: #fff;
+  margin-top: 70px;
+  margin-bottom: 300px;
+}
+
+.sec-3 .get button:hover {
+  -webkit-filter: brightness(50%);
+          filter: brightness(50%);
+}
+
+.sec-4 {
+  margin-top: 50px;
+}
+
+.sec-4 .access {
+  background-color: #111111;
+  width: 360px;
+  height: 100px;
+}
+
+.sec-4 .access a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.sec-4 .access a:hover {
+  text-decoration: none;
+}
+
+.sec-4 .access h2 {
+  padding-top: 50px;
+  padding-right: 10px;
+  font-size: 30px;
+  text-align: right;
+  vertical-align: baseline;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.sec-4 .jew {
+  background-color: #111111;
+  width: 360px;
+  height: 100px;
+}
+
+.sec-4 .jew a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.sec-4 .jew a:hover {
+  text-decoration: none;
+}
+
+.sec-4 .jew h2 {
+  padding-top: 50px;
+  padding-right: 10px;
+  font-size: 30px;
+  text-align: right;
+  vertical-align: baseline;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.sec-4 .bags {
+  background-color: #111111;
+  width: 360px;
+  height: 100px;
+}
+
+.sec-4 .bags a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.sec-4 .bags a:hover {
+  text-decoration: none;
+}
+
+.sec-4 .bags h2 {
+  padding-top: 50px;
+  padding-right: 10px;
+  font-size: 30px;
+  text-align: right;
+  vertical-align: baseline;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.sec-5 h2 {
+  margin-top: 120px;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 35px;
+  position: relative;
+}
+
+.sec-5 h2::before {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 2px;
+  position: absolute;
+  background-color: #000;
+  bottom: -30%;
+  left: 40%;
+}
+
+.sec-5 img {
+  width: 370px;
+  margin-top: 100px;
+  opacity: 0.7;
+}
+
+.sec-5 img:hover {
+  opacity: 1;
+}
+
+.pic1 h3 {
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Libre Baskerville', serif;
+  text-align: center;
+}
+
+.pic1 h5 {
+  padding-top: 10px;
+  color: #9F9FA4;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+.pic2 h3 {
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Libre Baskerville', serif;
+  text-align: center;
+}
+
+.pic2 h5 {
+  padding-top: 10px;
+  color: #9F9FA4;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+.pic3 h3 {
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Libre Baskerville', serif;
+  text-align: center;
+}
+
+.pic3 h5 {
+  padding-top: 10px;
+  color: #9F9FA4;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+.sec-6 img {
+  width: 370px;
+  margin-top: 50px;
+  opacity: 0.7;
+}
+
+.sec-6 img:hover {
+  opacity: 1;
+}
+
+.img1 h3 {
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Libre Baskerville', serif;
+  text-align: center;
+}
+
+.img1 h5 {
+  padding-top: 10px;
+  color: #9F9FA4;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+.img2 h3 {
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Libre Baskerville', serif;
+  text-align: center;
+}
+
+.img2 h5 {
+  padding-top: 10px;
+  color: #9F9FA4;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+.img3 h3 {
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Libre Baskerville', serif;
+  text-align: center;
+}
+
+.img3 h5 {
+  padding-top: 10px;
+  color: #9F9FA4;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+.sec-7 h2 {
+  margin-top: 80px;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 35px;
+  position: relative;
+}
+
+.sec-7 h2::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 1px;
+  bottom: -30%;
+  left: 35%;
+  background-color: #000;
+  font-weight: 300;
+}
+
+.sec-7 img {
+  margin-top: 50px;
+  width: 100px;
+}
+
+.sec-8 label {
+  margin-top: 100px;
+  color: #9F9FA4;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 600;
+  padding-right: 50px;
+}
+
+#sign {
+  width: 250px;
+  height: 50px;
+  padding: 10px;
+  outline: 1px solid #60bedd;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.sec-8 button {
+  display: inline-block;
+  background-color: #111111;
+  color: #fff;
+  width: 105px;
+  height: 50px;
+  font-weight: 600;
+}
+
+.sec-9 {
+  margin-top: 100px;
+  background-color: #111111;
+  height: 150px;
+}
+
+.sec-9 ul {
+  list-style-type: none;
+}
+
+.sec-9 ul li {
+  display: inline-block;
+  padding: 50px 20px;
+}
+
+.sec-9 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.sec-9 a:hover {
+  text-decoration: none;
+}
+
+.follow p {
+  padding-top: 50px;
+  color: #fff;
+  font-size: 18px;
+  padding-right: 30px;
+  font-family: 'Libre Baskerville', serif;
+  float: right;
+}
+
+.follow span {
+  color: #fff;
+  font-size: 28px;
+  float: right;
+  padding-top: 80px;
+  padding-left: 30px;
+}
+/*# sourceMappingURL=main.css.map */
